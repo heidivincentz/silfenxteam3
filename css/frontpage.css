@@ -1,0 +1,39 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  background: url(../assets/overlayedwelcome075.png) no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#signupbody {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+article {
+  grid-column: 2/6;
+  gap: 20px;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+}
+
+/* .bg {
+  background-image: url("../assets/IMG_7831.png");
+  color: black;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */

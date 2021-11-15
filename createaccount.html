@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/signup.css" />
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+  </head>
+  <body>
+    <h1>Create your account</h1>
+    <p>
+      Do you love the Silfen bags? By subscribing, you can enjoy even more of
+      our colorful universe and borrow whichever fits your outfit for the
+      weekend.
+    </p>
+    <section>
+      <h3>About you</h3>
+      <p>
+        <label>First Name<input type="text" name="firstname" /></label>
+        <label>Last Name<input type="text" name="lastname" /></label>
+      </p>
+      <p>
+        <label>Address<input type="text" name="address" /></label>
+      </p>
+
+      <p>
+        <label>Zip Code<input type="text" name="zip" /></label>
+        <label>City<input type="text" name="city" /></label>
+      </p>
+      <p>
+        <label>Zip Code<input type="text" name="zip" /></label>
+        <label>City<input type="text" name="city" /></label>
+      </p>
+    </section>
+
+    <section>
+      <h3>Payment Details</h3>
+
+      <p>
+        <label for="ccn">Credit Card Number</label>
+        <input
+          id="ccn"
+          type="tel"
+          inputmode="numeric"
+          pattern="[0-9\s]{13,19}"
+          autocomplete="cc-number"
+          maxlength="19"
+          placeholder="xxxx xxxx xxxx xxxx"
+        />
+      </p>
+      <p>
+        <label for="ccn">Expiration Date</label>
+        <input
+          id="ccn"
+          type="tel"
+          inputmode="numeric"
+          pattern="[0-9\s]{13,19}"
+          autocomplete="cc-number"
+          maxlength="19"
+          placeholder="00-00"
+        />
+        <label for="ccn">Security Code</label>
+        <input
+          id="ccn"
+          type="tel"
+          inputmode="numeric"
+          pattern="[0-9\s]{13,19}"
+          autocomplete="cc-number"
+          maxlength="19"
+          placeholder="00-00"
+        />
+      </p>
+      <p>
+        <label>Card Holder<input type="text" name="cardholder" /></label>
+      </p>
+    </section>
+    <a href="index.html">Back</a>
+  </body>
+</html>

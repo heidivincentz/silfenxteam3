@@ -1,0 +1,42 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  background: url(../assets/overlayedthankyou2075.png) no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3em;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#borrow {
+  color: #ffffff;
+  background-color: var(--cta);
+  border-radius: 5px;
+  padding: 0.9em;
+  border: none;
+  padding-left: 2.6em;
+  padding-right: 2.6em;
+  margin-top: 3em;
+}
+
+#thankyoulogo {
+  margin-top: 160px;
+}
