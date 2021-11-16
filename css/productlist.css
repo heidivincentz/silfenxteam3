@@ -96,11 +96,39 @@
   background-position: 0% 0%;
   margin-top: 0;
   padding: 0;
+
+  display: grid;
+  place-content: center;
+
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.section2 .explore {
+  grid-column: 1/4;
+  grid-row: 3/4;
+  margin: 4rem;
 }
 
 .section2 h2 {
-  display: grid;
-  grid-column: 2/5;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.section2 button {
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  margin: 1rem 0 0 0;
+  background-color: #e73b5b;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.section2 button:hover {
+  background-color: white;
+  color: #e73b5b;
 }
 /****/
 
