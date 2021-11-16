@@ -17,24 +17,35 @@
     <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
   </head>
   <body>
-    <h1>Create your account</h1>
-    <p>
-      Do you love the Silfen bags? By subscribing, you can enjoy even more of
-      our colorful universe and borrow whichever fits your outfit for the
-      weekend.
-    </p>
-    <section>
-      <h3>About you</h3>
+    <header>
+
+      <nav> 
+      <img src="assets/Logos/silfensmall.png" alt="" id="logo" /></nav>
+    </header>
+
+    <main>
+    <article id="lovesilfen">
+      <h1>Create your account</h1>
       <p>
-        <label>First Name<input type="text" name="firstname" /></label>
-        <label>Last Name<input type="text" name="lastname" /></label>
+        Do you love the Silfen bags? By subscribing, you can enjoy even more of
+        our colorful universe and borrow whichever fits your outfit for the
+        weekend.
+      </p>
+    </article>
+<div>
+    <article id="form">
+      <h3>About you</h3>
+      <form action="">
+      <p>
+        <label>First name<input type="text" name="firstname" /></label>
+        <label>Last name<input type="text" name="lastname" /></label>
       </p>
       <p>
         <label>Address<input type="text" name="address" /></label>
       </p>
 
       <p>
-        <label>Zip Code<input type="text" name="zip" /></label>
+        <label>Country<input type="text" name="zip" /></label>
         <label>City<input type="text" name="city" /></label>
       </p>
       <p>
@@ -47,7 +58,7 @@
       <h3>Payment Details</h3>
 
       <p>
-        <label for="ccn">Credit Card Number</label>
+        <label for="ccn">Credit card number</label>
         <input
           id="ccn"
           type="tel"
@@ -59,31 +70,44 @@
         />
       </p>
       <p>
-        <label for="ccn">Expiration Date</label>
+        <label for="ccn">Expiration date</label>
         <input
           id="ccn"
           type="tel"
           inputmode="numeric"
           pattern="[0-9\s]{13,19}"
           autocomplete="cc-number"
-          maxlength="19"
+          maxlength="4"
           placeholder="00-00"
         />
-        <label for="ccn">Security Code</label>
+        <label for="ccn">Security code</label>
         <input
           id="ccn"
           type="tel"
           inputmode="numeric"
           pattern="[0-9\s]{13,19}"
           autocomplete="cc-number"
-          maxlength="19"
-          placeholder="00-00"
+          maxlength="3"
+          placeholder="000"
         />
       </p>
       <p>
-        <label>Card Holder<input type="text" name="cardholder" /></label>
+        <label
+          >Card holder<input
+            type="text"
+            name="cardholder"
+            placeholder="Full name here"
+        /></label>
       </p>
-    </section>
-    <a href="index.html">Back</a>
+
+      <p>
+        <button id="signupbutton"><a href="thankyou.html">Sign up</a></button>
+      </p>
+    </article></form></div>
+
+
+    <a href="index.html">Back</a></main>
+
+    <footer></footer>
   </body>
 </html>
