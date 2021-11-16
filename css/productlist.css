@@ -97,6 +97,11 @@
   margin-top: 0;
   padding: 0;
 }
+
+.section2 h2 {
+  display: grid;
+  grid-column: 2/5;
+}
 /****/
 
 @media (min-width: 700px) {
