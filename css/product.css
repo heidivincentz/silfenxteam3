@@ -15,5 +15,73 @@
   color: #000;
 }
 
+/*****/
 
-/*****
+p {
+  color: #000;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+h2,
+h3 {
+  color: #000;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+/****/
+
+.borrow {
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 1rem 0 0 0;
+  background-color: #e73b5b;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.borrow:hover {
+  background-color: white;
+  color: #e73b5b;
+  border: #e73b5b solid 1px;
+}
+
+.add {
+  border: 1px #e73b5b solid;
+  border-radius: 5px;
+  padding: 0.9rem 1.9rem 0.9rem 1.9rem;
+  margin: 1rem 0 0 0;
+  background-color: white;
+  color: #e73b5b;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.add:hover {
+  background-color: #e73b5b;
+  color: white;
+}
+
+.button_group {
+  margin: 1rem;
+}
+
+/****RESPONSIVE*****/
+@media (min-width: 700px) {
+  .product {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .bag {
+    margin: 2rem;
+  }
+}
