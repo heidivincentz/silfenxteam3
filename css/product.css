@@ -1,0 +1,19 @@
+/******Breadcrumbs********/
+
+.breadcrumbs ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+  margin: 2rem;
+}
+
+.breadcrumbs a {
+  list-style: none;
+  text-decoration: none;
+  padding: 0.5rem;
+  color: #000;
+}
+
+
+/*****
