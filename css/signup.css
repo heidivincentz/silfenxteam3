@@ -13,12 +13,6 @@ body {
     #ffffff 100%
   );
 }
-
-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 #signupbutton {
   background-color: #7bafd4;
   border: none;
@@ -28,21 +22,54 @@ main {
   padding-right: 2em;
 }
 
-#lovesilfen {
-  grid-column: 1/2;
-  display: flex;
-  flex-direction: column;
-  padding: 5em;
+h1 {
+  color: black;
+  margin: 3rem;
+  font-size: 2.3rem;
 }
 
 #lovesilfen > p {
   color: black;
+  margin: 0 3rem 3rem 3rem;
+  font-size: 1rem;
 }
 
 #form {
-  grid-column: 3/4;
-  display: flex;
-  flex-direction: column;
+  margin: 3rem;
+}
+
+.payment {
+  margin-top: 2.5rem;
+}
+
+#signupbutton {
+  margin-top: 2.5rem;
+}
+
+input {
+  background-color: rgb(240, 240, 240);
+  border: #7bafd4 solid 1px;
+  color: #000;
+}
+
+@media (min-width: 700px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #lovesilfen {
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+  }
+
+  #form {
+    grid-column: 3/4;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 900px) {

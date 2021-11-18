@@ -14,15 +14,46 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/signup.css" />
+    <link rel="stylesheet" href="css/nav.css">
     <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
   </head>
   <body>
-    <header>
+    <!-- <header>
 
       <nav> 
       <img src="assets/Logos/silfensmall.png" alt="" id="logo" /></nav>
+    </header> -->
+    <header>
+      <section class="menu">
+        <nav>
+             <button id="menuknap">☰</button> 
+             <ul id="menu" class="hidden"> 
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="borrow.html">Borrow</a></li>
+                <li><a href="create.html">Subscribe</a></li>
+             
+            </ul>
+      </section>
+      
+      <figure id="logo">
+          <a href="index.html">
+        <img src="img/silfen.svg" alt="logo" />
+    </a>
+      </figure>
+      <section class="icons">
+        <figure class="heart">
+            <img src="img/heart.svg" alt="cart">
+        </figure>
+          <figure>
+              <img src="img/cart.svg" alt="cart">
+          </figure>
+          <figure>
+            <img src="img/search.svg" alt="cart">
+        </figure>
+     
+      </section>
     </header>
-
+   
     <main>
     <article id="lovesilfen">
       <h1>Create your account</h1>
@@ -37,25 +68,25 @@
       <h3>About you</h3>
       <form action="">
       <p>
-        <label>First name<input type="text" name="firstname" /></label>
-        <label>Last name<input type="text" name="lastname" /></label>
+        <label>First name<input type="text" name="firstname" placeholder="First Name" /></label>
+        <label>Last name<input type="text" name="lastname" placeholder="Last Name"/></label>
+        <label>Age<input type="text" name="age" placeholder="Age"/></label>
       </p>
       <p>
-        <label>Address<input type="text" name="address" /></label>
+        <label>Address<input type="text" name="address" placeholder="Address" /></label>
       </p>
 
       <p>
-        <label>Country<input type="text" name="zip" /></label>
-        <label>City<input type="text" name="city" /></label>
+        <label>Country<input type="text" name="zip" placeholder="Country"/></label>
+        <label>City<input type="text" name="city" placeholder="City" /></label>
       </p>
       <p>
-        <label>Zip Code<input type="text" name="zip" /></label>
-        <label>City<input type="text" name="city" /></label>
+        <label>Zip Code<input type="text" name="zip" placeholder="Zip Code" /></label>
       </p>
     </section>
 
     <section>
-      <h3>Payment Details</h3>
+      <h3 class="payment">Payment Details</h3>
 
       <p>
         <label for="ccn">Credit card number</label>
@@ -106,8 +137,9 @@
     </article></form></div>
 
 
-    <a href="index.html">Back</a></main>
+   
 
     <footer></footer>
+    <script src="js/menu.js"></script>
   </body>
 </html>
